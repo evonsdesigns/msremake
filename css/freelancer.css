@@ -234,11 +234,11 @@ section.success {
     margin: 0 auto;
 }
 
-.portfolio .portfolio-item img {
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
-    width: auto;
+.portfolio .portfolio-item .portfolio-link img {
+    max-width: 350px;
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
     display:block;
     margin:auto;
 }
@@ -247,7 +247,6 @@ section.success {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
 }
 
 .portfolio .portfolio-item .portfolio-link .caption {
@@ -255,6 +254,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
+    #margin-left:45px;
     background: rgba(16,22,28,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
